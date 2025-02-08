@@ -284,7 +284,7 @@ function App() {
             <DivForRqagac>
 
             <LeftDivBottomSun src={sun}/>
-            <LeftDivBottomGD>{hours>12 ? "GOOD EVENING, IT’S CURRENTLY" : "GOOD MORNING, IT’S CURRENTLY"}</LeftDivBottomGD>
+            <LeftDivBottomGD>{hours > 18 || hours < 6 ? "GOOD EVENING, IT’S CURRENTLY" : "GOOD MORNING, IT’S CURRENTLY"}</LeftDivBottomGD>
 
             </DivForRqagac>
 
