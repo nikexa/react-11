@@ -516,7 +516,7 @@ function App() {
         <BottomLeftDiv>
           <TimeZoneLeftDiv>
             <TimeZoneTopP>CURRENT TIMEZONE</TimeZoneTopP>
-            <TimeZoneBottomP>Europe/Tbilisi</TimeZoneBottomP>
+            <TimeZoneBottomP>Europe/Georgia</TimeZoneBottomP>
           </TimeZoneLeftDiv>
 
           <DayOfYear>
