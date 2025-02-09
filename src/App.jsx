@@ -16,7 +16,7 @@ import { useState } from 'react'
     background-size: cover;
     display: flex;
     position: relative;
-    overflow: scroll;
+    overflow-y: scroll;
     @media (max-width:1200px) {
       flex-direction: column;
     }
@@ -188,7 +188,7 @@ import { useState } from 'react'
     align-items: center;
     gap: 15px;
     margin-right: 200px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     @media (max-width:1200px) {
       margin: 0;
       margin-left: 120px;
