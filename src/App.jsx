@@ -16,6 +16,7 @@ import { useState } from 'react'
     background-size: cover;
     display: flex;
     position: relative;
+    overflow: scroll;
     @media (max-width:1200px) {
       flex-direction: column;
     }
@@ -168,6 +169,7 @@ import { useState } from 'react'
     display: flex;
     justify-content: end;
     align-items: end;
+    margin-bottom: 50px;
     @media (max-width:1200px) {
       justify-content: start;
       align-items: start;
@@ -227,7 +229,7 @@ import { useState } from 'react'
     display: flex;
     align-items: center;
     @media (max-width:750px) {
-      /* height: 256px; */
+      height: 256px;
       flex-direction: column;
     }
   `
@@ -509,7 +511,7 @@ function App() {
         </RightDiv>
       </Main>
 
-      <BottomDiv style={{display:show?"flex":"none", bottom:show && "0px"}}>
+      <BottomDiv style={{display:show?"flex":"none", top:show && "1"}}>
 
         <BottomLeftDiv>
           <TimeZoneLeftDiv>
