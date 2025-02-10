@@ -20,9 +20,6 @@ import { useState } from 'react'
     @media (max-width:1200px) {
       flex-direction: column;
     }
-    @media (max-width:750px) {
-      height: 75vh;
-    }
   `
   const LeftDiv = styled.div`
     width: 100%;
