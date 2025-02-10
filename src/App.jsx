@@ -87,6 +87,7 @@ import { useState } from 'react'
     @media (max-width:750px) {
       width: 278px;
       margin-left: 40px;
+      margin-top: 100px !important;
     }
   `
   const DivForRqagac=styled.div`
@@ -108,6 +109,22 @@ import { useState } from 'react'
     }
     @media (max-width:750px) {
       font-size: 15px;
+      display: none;
+    }
+  `
+  const SLeftDivBottomGD =styled.p`
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: inter;
+    color: white;
+    display: none;
+    @media (max-width:1200px) {
+      font-size: 18px;
+    }
+    @media (max-width:750px) {
+      font-size: 15px;
+      display: block;
     }
   `
   const DivForTime=styled.div`
@@ -487,6 +504,7 @@ function App() {
 
             <LeftDivBottomSun src={sun}/>
             <LeftDivBottomGD>{hours > 18 || hours < 6 ? "GOOD EVENING, IT’S CURRENTLY" : "GOOD MORNING, IT’S CURRENTLY"}</LeftDivBottomGD>
+            <SLeftDivBottomGD>{hours > 18 || hours < 6 ? "GOOD EVENING" : "GOOD MORNING"}</SLeftDivBottomGD>
 
             </DivForRqagac>
 
