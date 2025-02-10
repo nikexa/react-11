@@ -248,7 +248,7 @@ import { useState } from 'react'
     @media (max-width:750px) {
       height: 256px;
       flex-direction: column;
-      top: 60vh;
+      top: 70vh;
     }
   `
   const BottomLeftDiv=styled.div`
