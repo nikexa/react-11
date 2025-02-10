@@ -20,6 +20,9 @@ import { useState } from 'react'
     @media (max-width:1200px) {
       flex-direction: column;
     }
+    @media (max-width:750px) {
+      height: 60vh;
+    }
   `
   const LeftDiv = styled.div`
     width: 100%;
@@ -228,9 +231,11 @@ import { useState } from 'react'
     position: absolute;
     display: flex;
     align-items: center;
+    top: 60vh;
     @media (max-width:750px) {
       height: 256px;
       flex-direction: column;
+      top: 55vh;
     }
   `
   const BottomLeftDiv=styled.div`
@@ -511,7 +516,7 @@ function App() {
         </RightDiv>
       </Main>
 
-      <BottomDiv style={{display:show?"flex":"none", top:show && "1"}}>
+      <BottomDiv style={{display:show?"flex":"none"}}>
 
         <BottomLeftDiv>
           <TimeZoneLeftDiv>
