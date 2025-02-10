@@ -245,11 +245,10 @@ import { useState } from 'react'
     position: absolute;
     display: flex;
     align-items: center;
-    top: 60vh;
     @media (max-width:750px) {
       height: 256px;
       flex-direction: column;
-      top: 55vh;
+      top: 60vh;
     }
   `
   const BottomLeftDiv=styled.div`
